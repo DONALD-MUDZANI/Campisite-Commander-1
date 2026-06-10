@@ -18,3 +18,61 @@
             android:textColor="#FFFFFF"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="24dp"/>
+        <!-- dark card showing the total count -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#1E1E1E"
+            android:padding="20dp"
+            android:layout_marginBottom="32dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL ITEMS PACKED"
+                android:textSize="12sp"
+                android:textColor="#81C784"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvTotalItemsCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textSize="48sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnLaunchAddGear"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:text="Add Gear To Pack"
+            android:backgroundTint="#2E7D32"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp"/>
+        <Button
+            android:id="@+id/btnViewFullChecklist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Detailed Checklist"
+            android:backgroundTint="#37474F"
+            android:textColor="#FFFFFF"
+            android:padding="16dp"
+            android:layout_marginBottom="40dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2C2C2C"
+            android:layout_marginBottom="24dp"/>
+        <Button
+            android:id="@+id/btnExitApplication"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit App"
+            android:backgroundTint="#B71C1C"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"/>
+    </LinearLayout>
+</ScrollView>
