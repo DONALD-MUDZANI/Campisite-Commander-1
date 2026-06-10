@@ -60,7 +60,7 @@ show Toast: "Quantity must be a whole number"
 END TRY
 ---
 ## Screenshots
-[img.png](img.png)] - Campfire logo, app title, developer name,
+![img_5.png](img_5.png)] - Campfire logo, app title, developer name,
 student number. Auto-transitions after 3s.
 [![img_1.png](img_1.png)] -  dashboard with total count card,
 Add Gear and View Checklist buttons.
