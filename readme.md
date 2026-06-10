@@ -76,6 +76,9 @@ The workflow at .github/workflows/build.yml runs automatically
 on every push. It sets up Java 17 and runs ./gradlew assembleDebug
 on a clean Ubuntu machine. Green tick means the code compiled
 successfully (Android Developers, 2024b).
+AND THE APP IS RUNNING !THAT PICTURE PROVES THAT THE
+APP IS RUNNING [img_4.png](img_4.png)
+
 ---
 ## References
 Android Developers. 2024a. Intents and intent filters.
