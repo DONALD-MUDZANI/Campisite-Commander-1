@@ -23,9 +23,6 @@ screen so you can see everything laid out properly.
 5. Exit App closes everything.
 ---
 ## Design Choices
-Dark theme (#121212 background, #2E7D32 green accents) -
-I picked this because it suits an outdoor/nature app and
-dark mode is easier on the eyes when you're out at night.
 Parallel arrays - each index position maps to the same item
 across all four lists (Kotlin Documentation, 2024). So
 itemNames[0], itemCategories[0], itemQuantities[0] and
@@ -35,7 +32,6 @@ function instead of just calling .sum() because the brief
 specifically asks for a loop implementation. It also makes
 the logic easy to see and explain (Android Developers, 2024a).
 ---
-## Pseudocode
 
 ### Total Items Calculation
 FUNCTION calculateTotalPackedItems(quantities):
@@ -64,22 +60,14 @@ show Toast: "Quantity must be a whole number"
 END TRY
 ---
 ## Screenshots
-[Splash Screen] - Campfire logo, app title, developer name,
+[img.png](img.png)] - Campfire logo, app title, developer name,
 student number. Auto-transitions after 3s.
-[Main Screen] - Dark dashboard with total count card,
+[![img_1.png](img_1.png)] -  dashboard with total count card,
 Add Gear and View Checklist buttons.
-[Add Gear Dialog] - Popup with four input fields and
-error handling visible.
-[Detail Screen] - Scrollable list of all gear items
-with category, quantity, and notes.
-[Error Message] - Toast showing when fields are left empty.
-[GitHub Commits] - Commit history with 10 descriptive entries.
-[GitHub Actions] - Green build tick in the Actions tab.
+[![img_3.png](img_3.png)] - git hub actions.
 ---
 ## GitHub Usage
-I committed at every major stage of development so the
-history shows how the app was built step by step. The rubric
-gives 5 marks for detailed commits so yeah, I made sure
+ I made sure
 each message actually describes what changed (GitHub, 2024).
 ---
 ## GitHub Actions
@@ -99,9 +87,6 @@ Android Developers. 2024b. Build your app from the command line.
 <https://developer.android.com/build/building-cmdline>
 [Accessed 10 June 2026].
 GitHub. 2024. About commits. [online] Available at:
-
-<https://docs.github.com/en/pull-requests/committing-changes-
-to-your-project/creating-and-editing-commits/about-commits>
 
 [Accessed 10 June 2026].
 Kotlin Documentation. 2024. Collections overview. [online]
