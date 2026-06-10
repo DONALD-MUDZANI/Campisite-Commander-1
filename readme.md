@@ -2,12 +2,10 @@
 **Name:** Donald Prosper Mudzani
 **Student Number:** ST10512213
 **GitHub Repository:**
-**Module:** IMAD5112 - Introduction to Mobile Application Development
-**Institution:** Rosebank College (The IIE)
----
+
 ## What Is This App?
-So basically Campsite Commander is a gear and supply tracker
-I built for the IMAD5112 practicum. The idea is that you're
+So basically Campsite Commander is a gear and supply tracker 
+The idea is that you're
 part of a team building an inventory app for outdoor adventures.
 The app lets you log camping items - name, category, quantity,
 and any special notes - and then shows you the total number
