@@ -69,3 +69,4 @@
         android:text="Exit" android:backgroundTint="#EF5350" />
 
 </LinearLayout>
+</FrameLayout>
