@@ -1,7 +1,7 @@
 # Campsite Commander
 **Name:** Donald Prosper Mudzani
 **Student Number:** ST10512213
-**GitHub Repository:**
+**GitHub Repository:**https://github.com/DONALD-MUDZANI/Campisite-Commander-1.git
 
 ## What Is This App?
 So basically Campsite Commander is a gear and supply tracker 
